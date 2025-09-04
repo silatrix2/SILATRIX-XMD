@@ -1,49 +1,36 @@
 {
   "name": "silatrix-bot",
-  "version": "1.0.0",
-  "description": "Advanced WhatsApp bot with multi-device support and plugin system",
+  "version": "3.0.0",
+  "description": "Ultimate WhatsApp Bot with Advanced Auto Features",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "install-deps": "npm install",
-    "clean": "rm -rf sessions/* node_modules",
-    "setup": "mkdir -p plugins sessions"
+    "qr": "node index.js --qr",
+    "pair": "node index.js --pair",
+    "dev": "node index.js",
+    "heroku-postbuild": "npm install",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "keywords": [
     "whatsapp",
     "bot",
     "baileys",
-    "multi-device",
-    "plugins",
-    "silatrix"
+    "auto-features",
+    "always-online",
+    "auto-typing",
+    "anti-link"
   ],
   "author": "SILATRIX",
   "license": "MIT",
   "dependencies": {
     "@whiskeysockets/baileys": "^6.5.0",
-    "pino": "^8.15.0",
     "qrcode-terminal": "^0.12.0",
-    "axios": "^1.5.0",
     "chalk": "^4.1.2",
-    "moment": "^2.29.4",
-    "node-cron": "^3.0.2",
-    "jimp": "^0.22.10",
-    "ytdl-core": "^4.11.5",
-    "yt-search": "^2.10.4",
-    "google-tts-api": "^2.0.2",
-    "translate-google": "^1.5.0",
-    "cheerio": "^1.0.0-rc.12",
-    "form-data": "^4.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
+    "dotenv": "^16.0.0",
+    "axios": "^1.5.0"
   },
   "engines": {
-    "node": ">=16.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/silatrix2/SILATRIX-XMD"
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
   }
 }
