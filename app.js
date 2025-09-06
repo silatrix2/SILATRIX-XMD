@@ -48,12 +48,11 @@ class SilaBot {
         this.sock.ev.on('connection.update', async (update) => {
             const { connection, lastDisconnect, qr } = update;
             
-            if (qr) {
-                // Onyesha QR code kwenye terminal
-                console.log('\n\n🔷 🔷 🔷 SCAN QR CODE HII 🔷 🔷 🔷');
-                qrcode.generate(qr, { small: true });
-                console.log('🔷 🔷 🔷 SCAN QR CODE HII 🔷 🔷 🔷\n\n');
-            }
+          // Badilisha hii sehemu:
+   if (qr) {
+        const { showQR } = require('./qr_display');
+        showQR(qr);
+     }
             
             if (connection === 'close') {
                 const shouldReconnect = lastDisconnect?.error?.output?.statusCode !== DisconnectReason.loggedOut;
