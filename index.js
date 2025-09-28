@@ -1,7 +1,7 @@
 const { File: BufferFile } = require('node:buffer');
 global.File = BufferFile;
 
-// ✅ Silva Tech Inc Property 2025
+// ✅ Sila Tech Inc Property 2025
 const baileys = require('@whiskeysockets/baileys');
 const { makeWASocket, useMultiFileAuthState, fetchLatestBaileysVersion, Browsers, DisconnectReason, isJidGroup, isJidBroadcast, isJidStatusBroadcast, areJidsSameUser, makeInMemoryStore, downloadContentFromMessage } = baileys;
 const fs = require('fs');
