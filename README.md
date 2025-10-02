@@ -113,7 +113,7 @@ Always comply with WhatsApp's policies and local laws.
   <tr>
     <td align="center">
       <a href="https://github.com/silatrix2">
-        <img src="https://img.shields.io/badge/Godszeal-00ffff?style=for-the-badge&logo=github&logoColor=black" alt="SILA TECH">
+        <img src="https://img.shields.io/badge/SILA-MD-00ffff?style=for-the-badge&logo=github&logoColor=black" alt="SILA TECH">
       </a>
     </td>
     <td align="center">
