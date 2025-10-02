@@ -78,8 +78,7 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY SILA-MD
-      SAVE THE NUMBER AND CALL THE OWNER 255612491554 FOR FREE BOT 🖤*"
+      "value": "*SEEN YOUR STATUS BY SILA-MD🖤*"
    
      }, 
     
