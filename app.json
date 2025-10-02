@@ -8,7 +8,7 @@
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "PUT LINK SENT TO YOU [http://session.xibs.space/.......]",
+      "description": "PUT LINK SENT TO YOU [https://blaze.xibs.space/.......]",
       "required": true,
       "value": ""
     },  
