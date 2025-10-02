@@ -1,0 +1,23 @@
+{
+  "name": "SILA-MD",
+  "description": "Javascript WhatsApp bot made by Blaze",
+  "logo": "https://files.catbox.moe/mn9fgn.jpg",
+  "keywords": ["VERONICA"],
+  "success_url": "/",
+
+    "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "PUT LINK SENT TO YOU [http://session.xibs.space/.......]",
+      "required": true,
+      "value": ""
+    }, 
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
+  
